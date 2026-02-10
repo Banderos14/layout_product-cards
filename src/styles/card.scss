@@ -1,17 +1,12 @@
 .card {
   display: flex;
   width: 200px;
-  height: 408px;
   border: 1px solid $color-border;
   border-radius: 5px;
   background-color: $bg-color-card;
-
-  &__inside {
-    display: flex;
-    flex-direction: column;
-    padding: 0 16px 16px;
-    flex-grow: 1;
-  }
+  flex-direction: column;
+  padding: 0 16px 16px;
+  flex-grow: 1;
 
   &__img {
     height: 134px;
